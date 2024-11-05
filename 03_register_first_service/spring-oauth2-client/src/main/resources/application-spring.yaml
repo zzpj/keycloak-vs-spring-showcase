@@ -15,7 +15,8 @@ spring:
             redirect-uri: '{baseUrl}/login/oauth2/code/{registrationId}'
         provider:
           authorizationserver:
-            issuer-uri: http://${SAS_HOST:auth.mydomain.com:8081}
+            #issuer-uri: http://auth.mydomain.com:8081
+            issuer-uri: http://localhost:8081
             user-name-attribute: sub
 
 server:

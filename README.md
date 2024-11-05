@@ -129,7 +129,9 @@ Use URL: `http://localhost:8080/hello`
 * Profiles are named accordingly, like authorization providers, but in lowercase (`keycloak`, `spring`).
 
 ### Features of launching the client with Keycloak
-* Import 
+* Run keycloak with following command: ``bin\kc.bat start-dev --http-port 8082``
+* Create realm from attached file 
+* Create new user in given realm
 
 ### Features of launching the client with Spring Authorization Server
 You will need to run the module "spring-auth-server" as a separate application.
