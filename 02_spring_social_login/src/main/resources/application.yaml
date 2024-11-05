@@ -3,20 +3,20 @@ spring:
     name: AuthorizationServerDemo-02
 
   security:
-#    user:
-#      name: user
-#      password: password
+    user:
+      name: user
+      password: password
     oauth2:
       client:
         registration:
           google:
             client-name: Login me with Google
-            client-id: 31237537197-ufntb2rosif0o5qpvk6t2gfk81agab9k.apps.googleusercontent.com
-            client-secret: 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
+            client-id:
+            client-secret:
           github:
             client-name: Login me with Github
-            client-id: Ov23liJGw8LScxnxHawM
-            client-secret: 4f579952a1204d546db42f8d34ec65c5077f5020
+            client-id:
+            client-secret:
 
 server:
   port: 8080
