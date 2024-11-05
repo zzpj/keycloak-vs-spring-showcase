@@ -119,6 +119,8 @@ logging:
   level:
     org.springframework: INFO
 ```
+Use URL: `http://localhost:8080/hello`
+
 
 ## Application registration (03)
 
