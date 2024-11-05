@@ -58,3 +58,26 @@ spring:
 server:
   port: 8001
 ```
+
+
+
+# Keycloak vs. Spring Authorization Server - first application registration
+
+## Start-up and configuration features
+* By using different profiles, run it in the appropriate configuration.
+* Profiles are named accordingly, like authorization providers, but in lowercase (`keycloak`, `spring`).
+
+### Features of launching the client with Keycloak
+
+
+
+
+### Features of launching the client with Spring Authorization Server
+
+You will need to run the module [spring-auth-server](./spring-auth-server) as a separate application.
+
+
+
+> **Hint:**  Spring applications may have conflicts with their cookies due to the fact that both instances `spring-auth-server` 
+> and `spring-oauth2-client` will be running on localhost. It doesn't matter that they use different ports.
+> Therefore, it is recommended to use a different address than the localhost for one of the services. In this case, you can just add a following entry `auth.mydomain.com    127.0.0.1` to your host file.

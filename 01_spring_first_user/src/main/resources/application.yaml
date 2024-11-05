@@ -1,6 +1,6 @@
 spring:
   application:
-    name: AuthorizationServerDemo-00
+    name: AuthorizationServerDemo-01
 
   security:
     user:
